@@ -50,6 +50,14 @@
     background-color: #f2515e;
   }
 
+  .foot1{
+    margin: 10px 0;
+  }
+
+  .foot{
+    margin-bottom: 10px;
+  }
+
   .cart-content-right {
     padding-bottom: 5px;
   }
