@@ -14,9 +14,12 @@
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 599px) and (max-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .logo {
+    display: flex;
     text-align: center;
+    width: 50px;
+    height: 50px;
   }
   .logo_footer {
     width: 40%;
@@ -28,6 +31,16 @@
   .fitur-payroll {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    /* background-color: red; */
+  }
+  .item {
+    margin-bottom: 15px;
+    box-shadow: 0 .5rem .75rem rgba(0,0,0,.03),0 0 1rem rgba(0,0,0,.04)!important;
+  }
+
+  .item-last{
+    margin-bottom: -15px;
   }
   .mg {
     margin: 0px 0px;
@@ -601,7 +614,7 @@
   .image_main {
     /* width: 100%; */
     /* height: 350px; */
-    padding: 25px 55px;
+    /* padding: 25px 55px; */
     background-color: #fff;
     /* border: 1px solid #000; */
     border-radius: 30px;
