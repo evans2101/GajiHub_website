@@ -18,8 +18,9 @@
   .logo {
     display: flex;
     text-align: center;
-    width: 50px;
-    height: 50px;
+    /* margin: -50px 0; */
+    width: 90px;
+    height: 90px;
   }
   .logo_footer {
     width: 40%;
