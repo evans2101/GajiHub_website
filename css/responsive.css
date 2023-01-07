@@ -19,13 +19,37 @@
     display: flex;
     text-align: center;
     /* margin: -50px 0; */
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
-  .logo_footer {
-    width: 40%;
+
+  .product_section {
+    width: 100%;
     float: left;
+    margin: 20px 0px;
+    padding: 30px 0;
   }
+
+  .success_payroll {
+    padding-bottom: 20px;
+  }
+  
+  .read_bt_top a {
+    width: auto;
+    border-radius: 30px;
+    /* float: left; */
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #892bf5;
+    padding: 3px 12px;
+  }
+  
+  .read_bt_top a:hover {
+    color: #ffffff;
+    background-color: #f2515e;
+  }
+
   .cart-content-right {
     padding-bottom: 5px;
   }
@@ -247,6 +271,8 @@
     border-color: transparent;
   }
   .navbar {
+    display: flex;
+    justify-content: space-between;
     padding: 15px 0px 15px 15px;
   }
   .navbar-toggler {
@@ -394,6 +420,8 @@
     border-color: transparent;
   }
   .navbar {
+    display: flex;
+    justify-content: space-between;
     padding: 15px 0px 15px 15px;
   }
   .navbar-toggler {
@@ -567,7 +595,9 @@
     border-color: transparent;
   }
   .navbar {
-    padding: 0.5rem 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 0px;
   }
   .navbar-toggler {
     padding: 0px;
